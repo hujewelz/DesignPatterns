@@ -10,6 +10,8 @@
 #import "User.h"
 #import "UserBusinessAdapter.h"
 #import "CardView.h"
+#import "Cat.h"
+#import "CatBusinessAdapter.h"
 
 @interface ViewController ()
 
@@ -24,12 +26,16 @@
     user.name = @"huauhuuh";
     user.phone = @"123-3453-6879";
     
+    Cat *cat = [[Cat alloc] init];
+    cat.name = @"Tom";
+    BusinessAdapter *catAdapter = [[CatBusinessAdapter alloc] initWithData:cat];
+    
     BusinessAdapter *adapter = [[UserBusinessAdapter alloc] initWithData:user];
     
     CardView *cardView = [CardView cardView];
     cardView.center = self.view.center;
     [self.view addSubview:cardView];
-    [cardView configWithData:adapter];
+    [cardView configWithData:catAdapter];
     
 }
 

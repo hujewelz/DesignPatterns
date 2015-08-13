@@ -19,6 +19,8 @@
 		51CE3E1D1B7CDAE800566380 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CE3E1C1B7CDAE800566380 /* User.m */; };
 		51CE3E201B7CDC7700566380 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CE3E1F1B7CDC7700566380 /* CardView.m */; };
 		51CE3E221B7CDC9600566380 /* CareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CE3E211B7CDC9600566380 /* CareView.xib */; };
+		51CE3E251B7CE3CB00566380 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CE3E241B7CE3CB00566380 /* Cat.m */; };
+		51CE3E281B7CE43800566380 /* CatBusinessAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CE3E271B7CE43800566380 /* CatBusinessAdapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		51CE3E1E1B7CDC7700566380 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
 		51CE3E1F1B7CDC7700566380 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
 		51CE3E211B7CDC9600566380 /* CareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CareView.xib; sourceTree = "<group>"; };
+		51CE3E231B7CE3CB00566380 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		51CE3E241B7CE3CB00566380 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		51CE3E261B7CE43800566380 /* CatBusinessAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatBusinessAdapter.h; sourceTree = "<group>"; };
+		51CE3E271B7CE43800566380 /* CatBusinessAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatBusinessAdapter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				51CE3E211B7CDC9600566380 /* CareView.xib */,
 				51CE3E181B7CDAC000566380 /* UserBusinessAdapter.h */,
 				51CE3E191B7CDAC000566380 /* UserBusinessAdapter.m */,
+				51CE3E261B7CE43800566380 /* CatBusinessAdapter.h */,
+				51CE3E271B7CE43800566380 /* CatBusinessAdapter.m */,
+				51CE3E231B7CE3CB00566380 /* Cat.h */,
+				51CE3E241B7CE3CB00566380 /* Cat.m */,
 				51CE3E1B1B7CDAE800566380 /* User.h */,
 				51CE3E1C1B7CDAE800566380 /* User.m */,
 				51CE3E171B7CDA8600566380 /* adapter */,
@@ -253,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51CE3E251B7CE3CB00566380 /* Cat.m in Sources */,
 				51CE3E161B7CD98600566380 /* BusinessAdapter.m in Sources */,
 				51CE3DF61B7CD8BD00566380 /* ViewController.m in Sources */,
 				51CE3E1D1B7CDAE800566380 /* User.m in Sources */,
@@ -260,6 +271,7 @@
 				51CE3DF01B7CD8BD00566380 /* main.m in Sources */,
 				51CE3E1A1B7CDAC000566380 /* UserBusinessAdapter.m in Sources */,
 				51CE3E201B7CDC7700566380 /* CardView.m in Sources */,
+				51CE3E281B7CE43800566380 /* CatBusinessAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
