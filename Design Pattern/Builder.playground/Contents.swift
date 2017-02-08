@@ -17,40 +17,39 @@
 import Foundation
 
 class Product: NSObject {
-    private var name: String
-    private var type: String
-    
-    init(name: String, type: String) {
-        self.name = name
-        self.type = type
-    }
-    
-    func showProduct() {
-        print("名称：\(name), 类型：\(type)")
-    }
+  private var name: String
+  private var type: String
+  
+  init(name: String, type: String) {
+    self.name = name
+    self.type = type
+  }
+  
+  func showProduct() {
+    print("名称：\(name), 类型：\(type)")
+  }
 }
 
 protocol Builder {
-    func createProduct(name: String, type: String) -> Product
+  func createProduct(name: String, type: String) -> Product
 }
 
 class ConcreteBuilder: Builder {
-    func createProduct(name: String, type: String) -> Product {
-        return Product(name: name, type: type)
-    }
-    
+  func createProduct(name: String, type: String) -> Product {
+    return Product(name: name, type: type)
+  }
 }
 
 class Director {
-    let builder = ConcreteBuilder()
-    
-    func getAProcuct() -> Product{
-        return builder.createProduct(name: "宝马汽车", type: "X7")
-    }
-    
-    func getBProcuct() -> Product{
-        return builder.createProduct(name: "奥迪汽车", type: "Q5")
-    }
+  let builder = ConcreteBuilder()
+  
+  func getAProcuct() -> Product{
+    return builder.createProduct(name: "宝马汽车", type: "X7")
+  }
+  
+  func getBProcuct() -> Product{
+    return builder.createProduct(name: "奥迪汽车", type: "Q5")
+  }
 }
 
 let director = Director()

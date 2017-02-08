@@ -4,7 +4,7 @@ import Cocoa
 
 //: 简单工厂
 
-protocol OperateAble {
+protocol Operatable {
   var numberA: Double { get set }
   var numberB: Double { get set }
   
@@ -13,7 +13,7 @@ protocol OperateAble {
 }
 
 //: MARK - 加法
-class OperatorHAdd: OperateAble {
+class OperatorHAdd: Operatable {
   var numberB: Double = 0.0
   
   var numberA: Double = 0.0
@@ -26,11 +26,11 @@ class OperatorHAdd: OperateAble {
   func getResult() -> Double {
     return numberA + numberB
   }
-  
+
 }
 
 //: MARK - 减法
-class OperatorHSub: OperateAble {
+class OperatorHSub: Operatable {
   var numberB: Double = 0.0
   
   var numberA: Double = 0.0
@@ -43,7 +43,6 @@ class OperatorHSub: OperateAble {
   func getResult() -> Double {
     return numberA - numberB
   }
-  
 }
 
 
@@ -53,8 +52,8 @@ class OperationFactor {
     case add, sub
   }
   
-  class func createOperator(op: Operator, _ first: Double, _ second: Double) -> OperateAble {
-    var o: OperateAble!
+  class func createOperator(op: Operator, _ first: Double, _ second: Double) -> Operatable {
+    var o: Operatable!
     switch op {
     case .add:
       o = OperatorHAdd(first, second)
@@ -74,18 +73,18 @@ subOp.getResult()
 //: 工厂方法
 
 protocol FactoryType {
-  func createOperation(_ first: Double, _ second: Double) -> OperateAble
+  func createOperation(_ first: Double, _ second: Double) -> Operatable
 }
 
 class AddFactory: FactoryType {
   
-  func createOperation(_ first: Double, _ second: Double) -> OperateAble {
+  func createOperation(_ first: Double, _ second: Double) -> Operatable {
     return OperatorHAdd(first,second)
   }
 }
 
 class SubFactory: FactoryType {
-  func createOperation(_ first: Double, _ second: Double) -> OperateAble {
+  func createOperation(_ first: Double, _ second: Double) -> Operatable {
     return OperatorHSub(first, second)
   }
 }
