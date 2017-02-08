@@ -1,35 +1,34 @@
-
 import UIKit
 
 protocol Phone {
-  func printInfo()
+  func call()
 }
 
 protocol Watch {
-  func printInfo()
+  func showTime()
 }
 
 struct IPhone: Phone {
-  func printInfo() {
-    print("iphone")
+  func call() {
+    print("iphone call")
   }
 }
 
 struct AndroidPhone: Phone {
-  func printInfo() {
-    print("android phone")
+  func call() {
+    print("android phone call")
   }
 }
 
 struct IWatch: Watch {
-  func printInfo() {
-    print("iwatch")
+  func showTime() {
+    print("iwatch show time")
   }
 }
 
 struct AndroidWear: Watch {
-  func printInfo() {
-    print("android wear")
+  func showTime() {
+    print("android wear show time")
   }
 }
 
@@ -73,11 +72,7 @@ struct FactoryManager {
   }
 }
 
-let factory = AppleFactory()
-factory.createPhone()
-factory.createWatch()
-
-FactoryManager.factory(with: .android).createPhone().printInfo()
-FactoryManager.factory(with: .iOS).createPhone().printInfo()
-FactoryManager.factory(with: .android).createWatch().printInfo()
-FactoryManager.factory(with: .iOS).createWatch().printInfo()
+FactoryManager.factory(with: .android).createPhone().call()
+FactoryManager.factory(with: .iOS).createPhone().call()
+FactoryManager.factory(with: .android).createWatch().showTime()
+FactoryManager.factory(with: .iOS).createWatch().showTime()
