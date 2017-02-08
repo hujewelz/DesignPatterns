@@ -1,5 +1,4 @@
 
-
 import UIKit
 
 protocol Phone {
@@ -16,9 +15,9 @@ struct IPhone: Phone {
   }
 }
 
-struct XiaoMi: Phone {
+struct AndroidPhone: Phone {
   func printInfo() {
-    print("xiao mi")
+    print("android phone")
   }
 }
 
@@ -39,7 +38,7 @@ protocol Factory {
   func createWatch() -> Watch
 }
 
-struct FSK: Factory {
+struct AppleFactory: Factory {
   func createPhone() -> Phone {
     return IPhone()
   }
@@ -49,9 +48,9 @@ struct FSK: Factory {
   }
 }
 
-struct OtherF: Factory {
+struct AndroidFactory: Factory {
   func createPhone() -> Phone {
-    return XiaoMi()
+    return AndroidPhone()
   }
   
   func createWatch() -> Watch {
@@ -67,18 +66,18 @@ struct FactoryManager {
   static func factory(with type: ProductType) -> Factory {
     switch type {
     case .android:
-      return OtherF()
+      return AndroidFactory()
     case .iOS:
-      return FSK()
+      return AppleFactory()
     }
   }
 }
 
-let factory = FSK()
+let factory = AppleFactory()
 factory.createPhone()
 factory.createWatch()
 
-FactoryManager.factory(with: .android).createPhone()
-FactoryManager.factory(with: .iOS).createPhone()
-FactoryManager.factory(with: .android).createWatch()
-FactoryManager.factory(with: .iOS).createWatch()
+FactoryManager.factory(with: .android).createPhone().printInfo()
+FactoryManager.factory(with: .iOS).createPhone().printInfo()
+FactoryManager.factory(with: .android).createWatch().printInfo()
+FactoryManager.factory(with: .iOS).createWatch().printInfo()
