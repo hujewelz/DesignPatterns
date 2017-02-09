@@ -4,7 +4,7 @@ import UIKit
 
 protocol Facedable {
   var face: UIView { set get }
-  func rend()
+  func drawFace()
 }
 
 class Face: Facedable {
@@ -15,13 +15,13 @@ class Face: Facedable {
     return f
   }()
   
-  func rend() {
+  func drawFace() {
   }
 }
 
 class Happy: Face {
   
-  override func rend() {
+  override func drawFace() {
     let eyeY = face.frame.height/4+10
     let eye1 = CALayer()
     eye1.bounds = CGRect(x: 0, y: 0, width: 50, height: 4)
@@ -50,7 +50,7 @@ class Happy: Face {
 
 class Sad: Face {
   
-  override func rend() {
+  override func drawFace() {
     let eyeY = face.frame.height/4+10
     let eye1 = CALayer()
     eye1.bounds = CGRect(x: 0, y: 0, width: 50, height: 4)
@@ -85,9 +85,8 @@ class Context: UIView {
     self.face = face
   }
   
-  
-  func show() {
-    face?.rend()
+  func render() {
+    face?.drawFace()
     guard let face = face?.face else {
       return
     }
@@ -96,8 +95,8 @@ class Context: UIView {
 }
 
 let c1 = Context(face: Happy())
-c1.show()
+c1.render()
 
 
 let c2 = Context(face: Sad())
-c2.show()
+c2.render()
