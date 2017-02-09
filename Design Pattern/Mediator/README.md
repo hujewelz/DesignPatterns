@@ -1,9 +1,10 @@
 # 中介者模式
 **定义：**用一个中介者对象封装一系列的对象交互，中介者使各对象不需要显示地相互作用，从而使耦合松散，而且可以独立地改变它们之间的交互。<br>
-**类型：**行为类模式
-**类图** 
+**类型：**行为类模式<br>
+**类图** <br>
 
 ![类图](http://wiki.jikexueyuan.com/project/java-design-pattern/images/mediator-pattern-1.jpg)
+
 ## 中介者模式的结构
 中介者模式又称为调停者模式，从类图中看，共分为3部分：
 * **抽象中介者：**定义好同事类对象到中介者对象的接口，用于各个同事类之间的通信。一般包括一个或几个抽象的事件方法，并由子类去实现。
@@ -11,9 +12,13 @@
 * **同事类：**如果一个对象会影响其他的对象，同时也会被其他对象影响，那么这两个对象称为同事类。在类图中，同事类只有一个，这其实是现实的省略，在实际应用中，同事类一般由多个组成，他们之间相互影响，相互依赖。同事类越多，关系越复杂。并且，同事类也可以表现为继承了同一个抽象类的一组实现组成。在中介者模式中，同事类之间必须通过中介者才能进行消息传递。
 ## 为什么要使用中介者模式
 一般来说，同事类之间的关系是比较复杂的，多个同事类之间互相关联时，他们之间的关系会呈现为复杂的网状结构，这是一种过度耦合的架构，即不利于类的复用，也不稳定。例如在下图中，有六个同事类对象，假如对象1发生变化，那么将会有4个对象受到影响。如果对象2发生变化，那么将会有5个对象受到影响。也就是说，同事类之间直接关联的设计是不好的。
+
 ![](http://wiki.jikexueyuan.com/project/java-design-pattern/images/mediator-pattern-2.jpg)
+
 如果引入中介者模式，那么同事类之间的关系将变为星型结构，从图中可以看到，任何一个类的变动，只会影响的类本身，以及中介者，这样就减小了系统的耦合。一个好的设计，必定不会把所有的对象关系处理逻辑封装在本类中，而是使用一个专门的类来管理那些不属于自己的行为。
+
 ![](http://wiki.jikexueyuan.com/project/java-design-pattern/images/mediator-pattern-3.jpg)
+
 我们使用一个例子来说明一下什么是同事类：十字路口有两个交通灯A和B，当A变为红色时，B变为绿色，B变为绿色时，A变为红色，就称为同事类。代码如下：
 ```swift
 enum Light {
@@ -33,7 +38,7 @@ protocol MediatorType {
 protocol ColleagueType {
   var light: Light { get set }
   var color: UIColor { get }
-  func changeLight(_ color: Light, withMediator am: MediatorType)
+  func changeLight(to light: Light, withMediator am: MediatorType)
 }
 
 extension ColleagueType {
@@ -50,9 +55,8 @@ extension ColleagueType {
 class TrafficLightA: ColleagueType {
   var light: Light = .red
   
-  func changeLight(_ light: Light, withMediator am: MediatorType) {
+  func changeLight(to light: Light, withMediator am: MediatorType) {
     self.light = light
-    self.light
     am.aAffectB()
   }
 }
@@ -60,7 +64,7 @@ class TrafficLightA: ColleagueType {
 class TrafficLightB: ColleagueType {
   var light: Light = .green
   
-  func changeLight(_ light: Light, withMediator am: MediatorType) {
+  func changeLight(to light: Light, withMediator am: MediatorType) {
     self.light = light
     am.bAffectA()
   }
@@ -77,7 +81,6 @@ class TrafficLightMediator: MediatorType {
   
   //处理A对B的影响
   func aAffectB() {
-    print("a affect b \(colleagueA.light)")
     switch colleagueA.light {
     case .red:
       colleagueB.light = .green
@@ -101,12 +104,11 @@ var redLight = TrafficLightA()
 var greenLight = TrafficLightB()
 let am = TrafficLightMediator(redLight, greenLight)
 
-redLight.changeLight(.green, withMediator: am)
-//greenLight.changeLight(.red, withMediator: am)
+redLight.changeLight(to: .green, withMediator: am)
 redLight.color
 greenLight.color
 ```
-运行结果如下
+运行结果如下<br>
 ![](https://github.com/hujewelz/DesignPatterns/blob/master/resource/mediator.png)
 ## 中介者模式的优点
 * 适当地使用中介者模式可以避免同事类之间的过度耦合，使得各同事类之间可以相对独立地使用。

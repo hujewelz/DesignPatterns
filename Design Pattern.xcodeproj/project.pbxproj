@@ -7,16 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04960DE91E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DC11E4BF93500D65AEB /* README.md */; };
+		04960DEA1E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DC31E4BF93500D65AEB /* README.md */; };
+		04960DEB1E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DC51E4BF93500D65AEB /* README.md */; };
+		04960DEC1E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DC81E4BF93500D65AEB /* README.md */; };
+		04960DED1E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DCA1E4BF93500D65AEB /* README.md */; };
+		04960DEE1E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DCC1E4BF93500D65AEB /* README.md */; };
+		04960DEF1E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DCE1E4BF93500D65AEB /* README.md */; };
+		04960DF01E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DD01E4BF93500D65AEB /* README.md */; };
+		04960DF11E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DD31E4BF93500D65AEB /* README.md */; };
+		04960DF21E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DD51E4BF93500D65AEB /* README.md */; };
+		04960DF31E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DD71E4BF93500D65AEB /* README.md */; };
+		04960DF41E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DD91E4BF93500D65AEB /* README.md */; };
+		04960DF51E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DDC1E4BF93500D65AEB /* README.md */; };
+		04960DF61E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DDE1E4BF93500D65AEB /* README.md */; };
+		04960DF71E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DE01E4BF93500D65AEB /* README.md */; };
+		04960DF81E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DE21E4BF93500D65AEB /* README.md */; };
+		04960DF91E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DE41E4BF93500D65AEB /* README.md */; };
+		04960DFA1E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DE61E4BF93500D65AEB /* README.md */; };
+		04960DFB1E4BF93500D65AEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04960DE81E4BF93500D65AEB /* README.md */; };
 		04B641021E49645800389321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B641011E49645800389321 /* AppDelegate.swift */; };
 		04B641041E49645800389321 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B641031E49645800389321 /* ViewController.swift */; };
 		04B641071E49645800389321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B641051E49645800389321 /* Main.storyboard */; };
 		04B641091E49645800389321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B641081E49645800389321 /* Assets.xcassets */; };
 		04B6410C1E49645800389321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B6410A1E49645800389321 /* LaunchScreen.storyboard */; };
-		04C609361E4AACCD00FF3912 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04C609351E4AACCD00FF3912 /* README.md */; };
-		04C6093B1E4AE16400FF3912 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04C6093A1E4AE16400FF3912 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04960DC01E4BF93500D65AEB /* AbstractFactory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AbstractFactory.playground; sourceTree = "<group>"; };
+		04960DC11E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DC31E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DC51E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DC71E4BF93500D65AEB /* Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Builder.playground; sourceTree = "<group>"; };
+		04960DC81E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DCA1E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DCC1E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DCE1E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DD01E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DD21E4BF93500D65AEB /* FactoryMethod.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FactoryMethod.playground; sourceTree = "<group>"; };
+		04960DD31E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DD51E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DD71E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DD91E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DDB1E4BF93500D65AEB /* Mediator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Mediator.playground; sourceTree = "<group>"; };
+		04960DDC1E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DDE1E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DE01E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DE21E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DE41E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DE61E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DE81E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04960DFC1E4BFA0900D65AEB /* Adapter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Adapter.playground; sourceTree = "<group>"; };
 		04B640FE1E49645800389321 /* Design Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B641011E49645800389321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B641031E49645800389321 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,13 +65,7 @@
 		04B641081E49645800389321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B6410B1E49645800389321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B6410D1E49645800389321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04C609351E4AACCD00FF3912 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		04C609381E4AE11200FF3912 /* Mediator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Mediator.playground; sourceTree = "<group>"; };
-		04C6093A1E4AE16400FF3912 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04F0558A1E49996D00651162 /* Main.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Main.playground; sourceTree = "<group>"; };
-		04F0558B1E49AAB500651162 /* FactoryMethod.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FactoryMethod.playground; sourceTree = "<group>"; };
-		04F0558C1E49B8CA00651162 /* Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Builder.playground; sourceTree = "<group>"; };
-		04F0558D1E49CB5900651162 /* AbstractFactory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AbstractFactory.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +79,163 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04960DBF1E4BF93500D65AEB /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				04960DC01E4BF93500D65AEB /* AbstractFactory.playground */,
+				04960DC11E4BF93500D65AEB /* README.md */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		04960DC21E4BF93500D65AEB /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				04960DC31E4BF93500D65AEB /* README.md */,
+				04960DFC1E4BFA0900D65AEB /* Adapter.playground */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		04960DC41E4BF93500D65AEB /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				04960DC51E4BF93500D65AEB /* README.md */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		04960DC61E4BF93500D65AEB /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				04960DC71E4BF93500D65AEB /* Builder.playground */,
+				04960DC81E4BF93500D65AEB /* README.md */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		04960DC91E4BF93500D65AEB /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				04960DCA1E4BF93500D65AEB /* README.md */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		04960DCB1E4BF93500D65AEB /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				04960DCC1E4BF93500D65AEB /* README.md */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		04960DCD1E4BF93500D65AEB /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				04960DCE1E4BF93500D65AEB /* README.md */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		04960DCF1E4BF93500D65AEB /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				04960DD01E4BF93500D65AEB /* README.md */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		04960DD11E4BF93500D65AEB /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				04960DD21E4BF93500D65AEB /* FactoryMethod.playground */,
+				04960DD31E4BF93500D65AEB /* README.md */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		04960DD41E4BF93500D65AEB /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				04960DD51E4BF93500D65AEB /* README.md */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		04960DD61E4BF93500D65AEB /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+				04960DD71E4BF93500D65AEB /* README.md */,
+			);
+			path = Interpreter;
+			sourceTree = "<group>";
+		};
+		04960DD81E4BF93500D65AEB /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				04960DD91E4BF93500D65AEB /* README.md */,
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		04960DDA1E4BF93500D65AEB /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				04960DDB1E4BF93500D65AEB /* Mediator.playground */,
+				04960DDC1E4BF93500D65AEB /* README.md */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		04960DDD1E4BF93500D65AEB /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				04960DDE1E4BF93500D65AEB /* README.md */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		04960DDF1E4BF93500D65AEB /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				04960DE01E4BF93500D65AEB /* README.md */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		04960DE11E4BF93500D65AEB /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				04960DE21E4BF93500D65AEB /* README.md */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		04960DE31E4BF93500D65AEB /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				04960DE41E4BF93500D65AEB /* README.md */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		04960DE51E4BF93500D65AEB /* State */ = {
+			isa = PBXGroup;
+			children = (
+				04960DE61E4BF93500D65AEB /* README.md */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		04960DE71E4BF93500D65AEB /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				04960DE81E4BF93500D65AEB /* README.md */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
 		04B640F51E49645700389321 = {
 			isa = PBXGroup;
 			children = (
@@ -63,37 +255,34 @@
 		04B641001E49645800389321 /* Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				04960DBF1E4BF93500D65AEB /* AbstractFactory */,
+				04960DC21E4BF93500D65AEB /* Adapter */,
+				04960DC41E4BF93500D65AEB /* Bridge */,
+				04960DC61E4BF93500D65AEB /* Builder */,
+				04960DC91E4BF93500D65AEB /* Command */,
+				04960DCB1E4BF93500D65AEB /* Composite */,
+				04960DCD1E4BF93500D65AEB /* Decorator */,
+				04960DCF1E4BF93500D65AEB /* Facade */,
+				04960DD11E4BF93500D65AEB /* FactoryMethod */,
+				04960DD41E4BF93500D65AEB /* Flyweight */,
+				04960DD61E4BF93500D65AEB /* Interpreter */,
+				04960DD81E4BF93500D65AEB /* Iterator */,
+				04960DDA1E4BF93500D65AEB /* Mediator */,
+				04960DDD1E4BF93500D65AEB /* Memento */,
+				04960DDF1E4BF93500D65AEB /* Observer */,
+				04960DE11E4BF93500D65AEB /* Prototype */,
+				04960DE31E4BF93500D65AEB /* Proxy */,
+				04960DE51E4BF93500D65AEB /* State */,
+				04960DE71E4BF93500D65AEB /* Strategy */,
 				04B641011E49645800389321 /* AppDelegate.swift */,
 				04B641031E49645800389321 /* ViewController.swift */,
 				04B641051E49645800389321 /* Main.storyboard */,
+				04F0558A1E49996D00651162 /* Main.playground */,
 				04B641081E49645800389321 /* Assets.xcassets */,
 				04B6410A1E49645800389321 /* LaunchScreen.storyboard */,
 				04B6410D1E49645800389321 /* Info.plist */,
-				04F0558C1E49B8CA00651162 /* Builder.playground */,
-				04F0558A1E49996D00651162 /* Main.playground */,
-				04F0558B1E49AAB500651162 /* FactoryMethod.playground */,
-				04C609341E4AAC6E00FF3912 /* AbstractFactory */,
-				04C609391E4AE11700FF3912 /* Mediator */,
 			);
 			path = "Design Pattern";
-			sourceTree = "<group>";
-		};
-		04C609341E4AAC6E00FF3912 /* AbstractFactory */ = {
-			isa = PBXGroup;
-			children = (
-				04F0558D1E49CB5900651162 /* AbstractFactory.playground */,
-				04C609351E4AACCD00FF3912 /* README.md */,
-			);
-			path = AbstractFactory;
-			sourceTree = "<group>";
-		};
-		04C609391E4AE11700FF3912 /* Mediator */ = {
-			isa = PBXGroup;
-			children = (
-				04C609381E4AE11200FF3912 /* Mediator.playground */,
-				04C6093A1E4AE16400FF3912 /* README.md */,
-			);
-			path = Mediator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,9 +358,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C609361E4AACCD00FF3912 /* README.md in Sources */,
+				04960DEC1E4BF93500D65AEB /* README.md in Sources */,
+				04960DE91E4BF93500D65AEB /* README.md in Sources */,
+				04960DFA1E4BF93500D65AEB /* README.md in Sources */,
+				04960DFB1E4BF93500D65AEB /* README.md in Sources */,
+				04960DF01E4BF93500D65AEB /* README.md in Sources */,
 				04B641041E49645800389321 /* ViewController.swift in Sources */,
-				04C6093B1E4AE16400FF3912 /* README.md in Sources */,
+				04960DF31E4BF93500D65AEB /* README.md in Sources */,
+				04960DED1E4BF93500D65AEB /* README.md in Sources */,
+				04960DF81E4BF93500D65AEB /* README.md in Sources */,
+				04960DF61E4BF93500D65AEB /* README.md in Sources */,
+				04960DEB1E4BF93500D65AEB /* README.md in Sources */,
+				04960DF21E4BF93500D65AEB /* README.md in Sources */,
+				04960DEA1E4BF93500D65AEB /* README.md in Sources */,
+				04960DEF1E4BF93500D65AEB /* README.md in Sources */,
+				04960DF71E4BF93500D65AEB /* README.md in Sources */,
+				04960DF91E4BF93500D65AEB /* README.md in Sources */,
+				04960DF41E4BF93500D65AEB /* README.md in Sources */,
+				04960DEE1E4BF93500D65AEB /* README.md in Sources */,
+				04960DF51E4BF93500D65AEB /* README.md in Sources */,
+				04960DF11E4BF93500D65AEB /* README.md in Sources */,
 				04B641021E49645800389321 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

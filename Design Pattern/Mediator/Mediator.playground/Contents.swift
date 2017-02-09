@@ -19,7 +19,7 @@ protocol MediatorType {
 protocol ColleagueType {
   var light: Light { get set }
   var color: UIColor { get }
-  func changeLight(_ color: Light, withMediator am: MediatorType)
+  func changeLight(to light: Light, withMediator am: MediatorType)
 }
 
 extension ColleagueType {
@@ -36,9 +36,8 @@ extension ColleagueType {
 class TrafficLightA: ColleagueType {
   var light: Light = .red
   
-  func changeLight(_ light: Light, withMediator am: MediatorType) {
+  func changeLight(to light: Light, withMediator am: MediatorType) {
     self.light = light
-    self.light
     am.aAffectB()
   }
 }
@@ -46,7 +45,7 @@ class TrafficLightA: ColleagueType {
 class TrafficLightB: ColleagueType {
   var light: Light = .green
   
-  func changeLight(_ light: Light, withMediator am: MediatorType) {
+  func changeLight(to light: Light, withMediator am: MediatorType) {
     self.light = light
     am.bAffectA()
   }
@@ -63,7 +62,6 @@ class TrafficLightMediator: MediatorType {
   
   //处理A对B的影响
   func aAffectB() {
-    print("a affect b \(colleagueA.light)")
     switch colleagueA.light {
     case .red:
       colleagueB.light = .green
@@ -87,8 +85,7 @@ var redLight = TrafficLightA()
 var greenLight = TrafficLightB()
 let am = TrafficLightMediator(redLight, greenLight)
 
-redLight.changeLight(.green, withMediator: am)
-//greenLight.changeLight(.red, withMediator: am)
+redLight.changeLight(to: .green, withMediator: am)
 redLight.color
 greenLight.color
 
