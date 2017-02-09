@@ -58,6 +58,7 @@
 		04960DE61E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04960DE81E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04960DFC1E4BFA0900D65AEB /* Adapter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Adapter.playground; sourceTree = "<group>"; };
+		04960DFD1E4C330C00D65AEB /* Strategy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Strategy.playground; sourceTree = "<group>"; };
 		04B640FE1E49645800389321 /* Design Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B641011E49645800389321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B641031E49645800389321 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -232,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				04960DE81E4BF93500D65AEB /* README.md */,
+				04960DFD1E4C330C00D65AEB /* Strategy.playground */,
 			);
 			path = Strategy;
 			sourceTree = "<group>";

@@ -96,7 +96,7 @@ class NewCardAdapter: Cardable {
 
 struct NewModel {
   var name: String?
-  var phone: Int
+  var phone: Int?
 }
 
 // 对象适配器
@@ -110,7 +110,7 @@ class CardAdapter: Cardable {
     }
     else if data is NewModel {
       let model = data as! NewModel
-      return "📞: \(model.phone)"
+      return model.phone.map{"📞:\($0)"}
     }
     return nil
   }
@@ -138,7 +138,7 @@ class CardAdapter: Cardable {
 let aCardAdapter = NewCardAdapter(with: Model(name: "Hu Jewelz", phone: "134 - 5675 - 6787"))
 card.configView(with: aCardAdapter)
 
-let cardAdapter = CardAdapter(with: NewModel(name: nil, phone: 1234567897))
+let cardAdapter = CardAdapter(with: NewModel(name: nil, phone: nil))
 card.configView(with: cardAdapter)
 
 
