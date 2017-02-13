@@ -32,6 +32,7 @@ struct AndroidWear: Watch {
   }
 }
 
+/// 抽象工厂接口, 生产不同等级的产品
 protocol Factory {
   func createPhone() -> Phone
   func createWatch() -> Watch

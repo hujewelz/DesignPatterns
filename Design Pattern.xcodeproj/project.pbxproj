@@ -34,9 +34,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041DCE3D1E5176FD0055D2DB /* Composite.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Composite.playground; sourceTree = "<group>"; };
 		0482D5101E4D56B60094E0EC /* Facade.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Facade.playground; sourceTree = "<group>"; };
 		0482D5111E4D63E40094E0EC /* Decorator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Decorator.playground; sourceTree = "<group>"; };
 		0482D5121E4D8C400094E0EC /* Bridge.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Bridge.playground; sourceTree = "<group>"; };
+		048785FC1E5141BD006EF5BE /* Proxy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Proxy.playground; sourceTree = "<group>"; };
+		048785FD1E5143DB006EF5BE /* Command.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Command.playground; sourceTree = "<group>"; };
 		04960DC01E4BF93500D65AEB /* AbstractFactory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AbstractFactory.playground; sourceTree = "<group>"; };
 		04960DC11E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04960DC31E4BF93500D65AEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -124,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				04960DCA1E4BF93500D65AEB /* README.md */,
+				048785FD1E5143DB006EF5BE /* Command.playground */,
 			);
 			path = Command;
 			sourceTree = "<group>";
@@ -132,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				04960DCC1E4BF93500D65AEB /* README.md */,
+				041DCE3D1E5176FD0055D2DB /* Composite.playground */,
 			);
 			path = Composite;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				04960DE41E4BF93500D65AEB /* README.md */,
+				048785FC1E5141BD006EF5BE /* Proxy.playground */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
